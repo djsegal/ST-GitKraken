@@ -1,6 +1,6 @@
 [
     {
-        "caption": "GitX: Open GitX",
-        "command": "gitx_open"
+        "caption": "GitKraken: Open GitKraken",
+        "command": "gitkraken_open"
     }
 ]

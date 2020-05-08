@@ -1,7 +1,7 @@
 /*
-    SublimeTextGitX default settings
+    SublimeTextGitKraken default settings
 */
 {
-    // gitx executable path
-    "gitx_path": "/usr/local/bin/gitx"
+    // gitkraken executable path
+    "gitkraken_path": "/usr/local/bin/gitkraken"
 }

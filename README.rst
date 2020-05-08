@@ -1,44 +1,44 @@
-SublimeTextGitX
+SublimeTextGitKraken
 ===============
 
-Very simple plugin to open GitX (http://gitx.laullon.com/) from Sublime Text 2 and 3 (http://www.sublimetext.com/).
+Very simple plugin to open GitKraken (http://gitkraken.laullon.com/) from Sublime Text 2 and 3 (http://www.sublimetext.com/).
 
 Installing
 ----------
 
 **Using Git:** Clone the repository in your Sublime Text Packages directory and restart Sublime Text:
 
-    git clone https://github.com/fabiocorneti/SublimeTextGitX
+    git clone https://github.com/fabiocorneti/SublimeTextGitKraken
 
-**Using the Package Control plugin:** The easiest way to install SublimeTextGitX is through Package Control, 
+**Using the Package Control plugin:** The easiest way to install SublimeTextGitKraken is through Package Control,
 which can be found at http://wbond.net/sublime_packages/package_control .
 
 Once you install Package Control, restart Sublime Text 2 and open the Command Palette.
 
-Select "Package Control: Install Package", wait while Package Control fetches the latest package list, 
-then select SublimeTextGitX when the list appears.
+Select "Package Control: Install Package", wait while Package Control fetches the latest package list,
+then select SublimeTextGitKraken when the list appears.
 
 The advantage of using this method is that Package Control will automatically keep this plugin up to date.
 
 Usage
 -----
 
-Open GitX and enable terminal usage by clicking on the GitX menu and then on ``Enable Terminal Usage...``;
-GitX will create an executable named ``gitx`` inside ``/usr/local/bin``.
+Open GitKraken and enable terminal usage by clicking on the GitKraken menu and then on ``Enable Terminal Usage...``;
+GitKraken will create an executable named ``gitkraken`` inside ``/usr/local/bin``.
 
-Open the command palette and execute the ``GitX: Open GitX`` command to open the GIT repository 
+Open the command palette and execute the ``GitKraken: Open GitKraken`` command to open the GIT repository
 in which the currently opened file is located.
 
 Sample user key binding to execute the command::
 
-    { "keys": ["super+."], "command": "gitx_open" }
+    { "keys": ["super+."], "command": "gitkraken_open" }
 
 Configuration
 -------------
 
 Additional settings can be configured in the User File Settings:
 
-``gitx_path``: the path to the ``gitx`` executable (default: ``"/usr/local/bin/gitx"``)
+``gitkraken_path``: the path to the ``gitkraken`` executable (default: ``"/usr/local/bin/gitkraken"``)
 
 Changelog
 ---------
