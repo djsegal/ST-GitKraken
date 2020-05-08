@@ -1,14 +1,14 @@
 SublimeTextGitKraken
 ===============
 
-Very simple plugin to open GitKraken (http://gitkraken.laullon.com/) from Sublime Text 2 and 3 (http://www.sublimetext.com/).
+Very simple plugin to open GitKraken (http://gitkraken.com/) from Sublime Text 2 and 3 (http://www.sublimetext.com/).
 
 Installing
 ----------
 
 **Using Git:** Clone the repository in your Sublime Text Packages directory and restart Sublime Text:
 
-    git clone https://github.com/fabiocorneti/SublimeTextGitKraken
+    git clone https://github.com/djsegal/SublimeTextGitKraken
 
 **Using the Package Control plugin:** The easiest way to install SublimeTextGitKraken is through Package Control,
 which can be found at http://wbond.net/sublime_packages/package_control .
