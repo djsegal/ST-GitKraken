@@ -39,7 +39,7 @@ class GitkrakenOpenCommand(sublime_plugin.WindowCommand, GitKrakenCommand):
             return False
 
         if gitkraken_path.endswith(".app"):
-            subprocess.call(['open', '-a', gitkraken_path, path])
+            subprocess.call(['open', '-na', gitkraken_path, '--args', '-p', path])
         else:
             try:
                 encoding = locale.getpreferredencoding(do_setlocale=True) or 'UTF-8'
