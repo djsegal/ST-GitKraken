@@ -24,7 +24,7 @@ class GitkrakenOpenCommand(sublime_plugin.WindowCommand, GitKrakenCommand):
         if os.path.isfile(path):
             path = os.path.dirname(path)
 
-        settings = sublime.load_settings('Base File.sublime-settings')
+        settings = sublime.load_settings('Preferences.sublime-settings')
         gitkraken_path = settings.get('gitkraken_path', '/usr/local/bin/gitkraken')
 
         if not os.path.isfile(gitkraken_path):
